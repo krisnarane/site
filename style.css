@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+    --fontcolor: #ffffff;
+    --backgroundcolor: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+    
+}
+
+
+html {
+    font-size: 62.5%;
+    /* scroll-behavior: smooth; */
+    background-image: url("images/rosa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-x: hidden;
+    
+}
+
+header {
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 2rem 7%;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, .1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+header #logo {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    font-family: "Great Vibes", cursive;
+    
+  
+}
+
+header #logo span {
+    color: var(--fontcolor);
+    color: #ffb1db;
+    font-family: "Great Vibes", cursive;
+}
+
+header .navbar a {
+    font-size: 1.5rem;
+    color:#fff;
+    margin-left: 1rem;
+    text-align: center;
+
+   
+}
+
+.icons i {
+    font-size: 2rem;
+    color:#ffb1db;
+    margin-left: 1rem;
+    padding: 10px 0px;
+}
+
+header #menu_bars {
+    font-size: 2rem;
+    color: var(--fontcolor);
+    display: none;
+}
+
+
+header .navbar.active{
+    left: 0;
+    transition: .5s;
+}
+
+.main-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-top: 75px;
+    height: 100vh;
+}
+
+
+.container {
+    width: 100%;
+    padding-top: 7.5rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container .main-text{
+    width: 75%;
+    top: 200px;
+    padding: 150px;
+    text-align: center;
+    margin-left: 400px;
+    padding-top: 100px;
+    
+}
+
+.titulo {
+    font-size: 35px;
+    color: var(--fontcolor);
+    padding-bottom: 1.5rem;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+
+  
+}
+
+
+
+.container .main-text button {
+    padding: 1.5rem 3.5rem;
+    background: var(--backgroundcolor);
+    color: rgb(255, 119, 183);
+    border-radius: 10px;
+    border: 1px solid rgb(244, 97, 161);
+}
+
+.service-section {
+    padding: 2rem 7%;
+    background: linear-gradient(#ffaccb, #ffa1c3);
+    min-height: 80vh;
+    
+
+}
+
+#ourservices {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.inner-service-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+.service-box {
+    flex: 1 1 200px;
+    padding: 5rem 0;
+}
+
+.service-box i {
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+
+.service-box h2 {
+    color: white;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.service-box p {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.work-section {
+    padding: 2rem 7%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+}
+
+.inner-work-section h2{
+    font-size: 30px;
+    padding: .5rem 0;
+}
+
+.text-work {
+    padding: 1rem 0;
+    padding-bottom: 2rem;
+}
+
+.myimages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+}
+
+.btn {
+    padding: 1.5rem 3rem;
+    border-radius: 15px;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.creative-text {
+    padding: 2rem 0;
+}
+
+.gallery {
+    background:#000000
+    min-height: 100vh;
+    padding: 2rem 9%;
+}
+
+.galleryheading {
+    color: rgb(0, 0, 0);
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.galleryheading span {
+    color:#ffffff
+}
+
+.main-gallery .gallery-box {
+    flex: 1 1 300px;
+    
+}
+
+.main-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+   
+}
+
+
+.gallery-box img {
+    width: 100%;
+    /* box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); */
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5),
+                    -10px -10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.service-box p {
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+   
+}
+
+.service-box button {
+    padding: 1.5rem 3.5rem;
+    background:#ffa1c3;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-color:#ffc8dc;
+
+
+}
+
+.ourteam-section {
+    padding: 10rem;
+}
+
+.ourteam-section h2 {
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.ourteam-section h2 span {
+    color:#000000;
+}
+
+.ourteam-inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+}
+
+.ourteam-inner .section-box {
+    flex: 1 1 250px;
+}
+
+.ourteam-inner .section-box img {
+    width: 70%;
+    
+}
+
+.section-box h3 {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.team-social-links i {
+    color: var(--fontcolor);
+    font-size: 2rem;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    background: #222222;
+    padding: 2rem 9%;
+}
+
+.inner-footer h2 {
+    color: white;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
+.inner-footer a {
+    display: block;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+
+
+
+
+.footer {
+    background-color: #ff9ac3;
+    background-size: cover;
+  }
+  .footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 250fr));
+    gap: 20px;
+  }
+  .footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #244d4d;
+    padding: 1rem 0;
+  }
+  .footer .box-container .box p {
+    font-size: 1.6rem;
+    color: #779;
+    padding-bottom: 1rem;
+  }
+  .footer .box-container .box a {
+    font-size: 1.4rem;
+    color: #779;
+    padding: 1rem 0;
+    display: block;
+  }
+  .footer .box-container .box a:hover {
+    color: #244d4d;
+  }
+  .footer .box-container .box a:hover i {
+    padding-right: 2rem;
+  }
+  .footer .box-container .box a i {
+    padding-right: 0.5rem;
+    color: #244d4d;
+  }
+  .footer .box-container .box form input[type=email] {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    color: #244d4d;
+    text-transform: none;
+    margin: 0.7rem 0;
+    border: 0.1rem solid #244d4d;
+  }
+  
+  .credit {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: #244d4d;
+  }
+
+
+
+
+
+
+
+
+
+
+

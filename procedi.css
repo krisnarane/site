@@ -1,0 +1,306 @@
+:root {
+    --fontcolor: #ffffff;
+    --backgroundcolor: #ffffff;
+    margin: 0%;
+    padding: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    padding: 50px;
+
+}
+
+header {
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/fundo.jpg");
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.758);
+}
+
+header #logo {
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    font-family: "Great Vibes", cursive;
+
+
+}
+
+header #logo span {
+    color: var(--fontcolor);
+    color: #ffb1db;
+    font-family: "Great Vibes", cursive;
+}
+
+header .navbar a {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-left: 1rem;
+    text-align: center;
+
+
+}
+
+.container {
+    background-image: url("images/procedimentps.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    border-width: 15px;
+}
+
+.container .main-text {
+    width: 75%;
+    top: 200px;
+    padding: 180px;
+    text-align: center;
+    margin-left: 150px;
+    padding-top: 150px;
+
+
+}
+
+.titulo {
+    font-size: 60px;
+    color: var(--fontcolor);
+    padding-bottom: 1.5rem;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+
+
+
+}
+
+.BOTOX {
+    top: 50px;
+    padding: 5px;
+    text-align: left;
+    font-size: 50px;
+    color: #ffb1db;
+    font-family: "Playfair Display", serif;
+    padding-top: 70px;
+    margin-left: 40px;
+    font-weight: bold;
+
+}
+
+.titulo2 {
+    font-size: 35px;
+    padding: 0.5px;
+    text-transform: initial;
+    align-items: center;
+    width: 500px;
+    color: #000;
+    font-family: "";
+    margin-left: 40px;
+    font-family: "Montserrat";
+}
+
+.container-botox {
+    display: flex;
+    flex-direction: row;
+}
+
+.peeling {
+    border-radius: 50%;
+    width: 500px;
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 120px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.447);
+
+
+}
+
+.text-botox button {
+    padding: 1.5rem 3.5rem;
+    background: #ffa1c3;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-color: #ffc8dc;
+    margin-top: 30px;
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.preenchimento {
+    top: 50px;
+    /* padding: 5px; */
+    text-align: left;
+    font-size: 50px;
+    color: #ffb1db;
+    font-family: "Playfair Display", serif;
+    /* padding-top: px; */
+    margin-left: 750px;
+    font-weight: bold;
+    /* margin-bottom: 500px; */
+}
+
+.desc-image {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 90px;
+    margin-top: 20px;
+}
+
+.descricao {
+    font-size: 35px;
+    padding: 0.5px;
+    text-transform: initial;
+    align-items: center;
+    width: 500px;
+    color: #000;
+
+    margin-top: 0px;
+    font-family: "Montserrat";
+
+}
+
+.fotopreenchimento {
+    border-radius: 50%;
+    width: 500px;
+    height: 400px;
+
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.447);
+}
+
+.oi button {
+    padding: 1.5rem 3.5rem;
+    background: #ffa1c3;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-color: #ffc8dc;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 35px;
+
+}
+
+.BOTOXx {
+    top: 50px;
+    padding: 5px;
+    text-align: left;
+    font-size: 50px;
+    color: #ffb1db;
+    font-family: "Playfair Display", serif;
+    padding-top: 70px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.titulo3 {
+    font-size: 35px;
+    padding: 0.5px;
+    text-transform: initial;
+    align-items: center;
+    width: 500px;
+    color: #000;
+    margin-left: 40px;
+    font-family: "Montserrat";
+}
+
+.fotobotox {
+    border-radius: 50%;
+    width: 500px;
+    height: 400px;
+    margin-left: 90px;
+    margin-top: 50px;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.447);
+
+}
+
+.botox2 button {
+    padding: 1.5rem 3.5rem;
+    background: #ffa1c3;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-color: #ffc8dc;
+    margin-left: 100px;
+    font-size: 35px;
+}
+
+.botox-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    background-color: #ff9ac3;
+    background-size: cover;
+  }
+  .footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 250fr));
+    gap: 20px;
+
+  }
+  .footer .box-container .box h3 {
+    font-size: 2.2rem;
+    color: #244d4d;
+    padding: 1rem 0;
+  }
+  .footer .box-container .box p {
+    font-size: 1.6rem;
+    color: #779;
+    padding-bottom: 1rem;
+  }
+  .footer .box-container .box a {
+    font-size: 1.4rem;
+    color: #779;
+    padding: 1rem 0;
+    display: block;
+  }
+  .footer .box-container .box a:hover {
+    color: #244d4d;
+  }
+  .footer .box-container .box a:hover i {
+    padding-right: 2rem;
+  }
+  .footer .box-container .box a i {
+    padding-right: 0.5rem;
+    color: #244d4d;
+  }
+  .footer .box-container .box form input[type=email] {
+    width: 100%;
+    padding: 1rem 1.2rem;
+    font-size: 1.6rem;
+    color: #244d4d;
+    text-transform: none;
+    margin: 0.7rem 0;
+    border: 0.1rem solid #244d4d;
+  }
+  
+  .credit {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: #244d4d;
+  }
+

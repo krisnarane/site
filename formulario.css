@@ -1,0 +1,189 @@
+/* Todos os elementos da página */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', sans-serif;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    text-transform: capitalize;
+    text-decoration: none; 
+}
+
+
+header {
+    top: 0px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("images/fundo.jpg");
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.372);
+}
+
+header #logo {
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    font-family: "Great Vibes", cursive;
+    
+}
+
+header #logo span {
+    color: var(--fontcolor);
+    color: #ffb1db;
+    font-family: "Great Vibes", cursive;
+}
+
+header .navbar a {
+    font-size: 15px;
+    color:#fff;
+    margin-left: 1rem;
+    text-align: center;
+
+}
+
+/* Elementos com o ID "titulo" */
+#titulo {
+    font-family: "Playfair Display", serif;
+    color: #380B61;
+    margin-left: 7%;
+    font-size: 35px;
+} 
+
+/* Elementos com o ID "subtitulo" */
+#subtitulo {
+    font-family:"Tenor Sans";
+    color: #380B61;
+    margin-left: 10%;
+} 
+
+#check{
+    display: inline-block;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de tag <fieldset>*/
+fieldset {
+    border: 0;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elemento de tag <body> */
+body{
+    background-color: #ffc3d1;
+    font-family:"Playfair Display", serif;
+    font-size: 1em;
+    color: #59429d;
+    /* margin-left: 20px; */
+    /* margin-top: 2%; */
+    justify-content: center;
+}
+
+/* Elementos de tags <body>, <input>, <Select>, <textarea> e <button> */
+input, select, textarea, button {
+    font-family:"Playfair Display", serif;
+    font-size: 1em;
+    color: #59429d;
+    border-radius: 5px;
+}
+
+/* Elementos de classe "grupo" nos estados das pseudoclasses "before" e "after" */
+.grupo:before, .grupo:after {
+    display: table;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de classe "grupo" no estado da pseudoclasse "after" */
+.grupo:after {
+    clear: both;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de classe "campo" */
+.campo {
+    margin-bottom: 1em;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de classe "campo" de tag <label> */
+.campo label {
+    margin-bottom: 0.2em;
+    color: #59429d;
+    display: block;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de classe "campo" ou "grupo" de tag <fieldset> */
+fieldset.grupo .campo {
+    float:  left;
+    margin-right: 1em;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em;
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de classe "campo" de tag <select> e <option>*/
+.campo select option {
+    padding-right: 1em;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
+.campo input:focus, .campo select:focus, .campo textarea:focus {
+    background: #E0E0F8;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elemento de classe "botao" */
+.botao {
+    padding: 1.5rem 3.5rem;
+    background:#ffa1c3;
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    border-color:#ffc8dc;
+    margin-top: 8px;
+    margin-left: 100px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elemento de classe "botao" com o estado da pseudoclasse "hover" */
+.botao:hover {
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+    font-family:"Playfair Display", serif;
+}
+
+/* Elementos de classe botão e de tag <select> */
+.botao, select{
+    cursor: pointer;
+}
+
+.tudojunto {
+    margin-left: 36%;
+    padding-top: 70px;;
+}
+
+.grupo .nome {
+    font-family:"Playfair Display", serif;
+}

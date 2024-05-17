@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+
+    <head>
+        <!-- Metadados -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="shortcut icon" href="images/CR__1_-removebg-preview.png"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="formulario.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Tenor+Sans&display=swap" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="formulario.css" media="screen">
+        <title>Georgio Beauty| Agende sua consulta</title>
+    </head>
+
+    <body>  
+      <!--Header-Section/Seção do cabeçalho-->
+    <div>
+        <header class="header">
+            <a href="#" id="logo"><span>Georgio</span> Beauty</a>
+            <nav class="navbar">
+                <a href="index.htm">HOME</a>
+                <a href="quemsomos.htm">QUEM SOMOS</a>
+                <a href="procedimento.htm">PROCEDIMENTOS</a>
+                <a href="formulario.htm">AGENDE SUA CONSULTA</a>
+            </nav>
+    </div>
+
+
+        <!-- Cabeçalho com título e subtítulo (ambos com css de id "titulo") -->
+        <div class="tudojunto">
+            <h1 id="titulo">Agende sua consulta</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+
+        <!-- Início do formulário -->
+        <form>
+
+            <fieldset class="grupo">
+                <!-- Campo do nome com legenda "nome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="nome"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <!-- Campo do sobrenome com legenda "sobrenome" e css de classe "campo" -->
+                <div class="campo">
+                    <label for="sobrenome"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="sobrenome" required>
+                </div>
+            </fieldset> 
+
+            <!-- Campo de email com-->
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <!-- Campo de desenvolvimento web com 3 opções de botões selecionáveis (radio button) e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Você possui convênio?</strong></label>
+                <label>
+                    <input type="radio" name="devweb" value="Sim" checked>Sim
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="Não">Não 
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="Particular">Particular
+                </label>
+            </div>
+
+            <!-- Campo de senioridade com 3 opções para escolha (select option) e css de classe "campo" -->
+            <div class="campo">
+                <label for="senioridade"><strong></strong></label>
+                <select id="senioridade" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Unimed</option>
+                  <option>Notredame</option>
+                  <option>Porto seguro</option>
+                </select>
+            </div>
+
+            <fieldset class="grupo">
+                <!-- Campo de tecnologias para escolha de 1 ou mais opções para marcar (checkbox) e css de classe "campo" -->
+                <div id="check">
+                    <label><strong>Quais procedimentos você gostaria?</strong></label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
+                    <label for="tecnologia1"> Peeling</label>
+                    <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
+                    <label for="tecnologia2"> Preenchimento</label>
+                    <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
+                    <label for="tecnologia3"> Botox</label>
+                </div>
+            </fieldset>
+
+            <!-- Caixa de texto -->
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>O que você espera desse procedimento? </strong></label>
+                <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </div>
+
+            <!-- Botão para enviar o formulário -->
+            <button class="botao" type="submit" onsubmit="">Concluído</button>  
+            
+        </div>
+
+        </form>
+
+    </body>
+
+</html>
+
+
+
